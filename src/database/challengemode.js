@@ -15,7 +15,6 @@ class ChallengeModeDb {
     }
 
     static async getLeaderboard(levelHash, difficultyLevelId, modeId) {
-        console.log("getLeaderboard(" + levelHash + "," + difficultyLevelId + "," + modeId + ")");
         const result = await db.query(/* sql */`
             SELECT Data FROM tblChallengeModeRuns
             WHERE JSON_VALUE(Data, '$.levelHash') = @levelHash AND
