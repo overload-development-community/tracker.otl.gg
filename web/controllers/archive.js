@@ -63,6 +63,9 @@ class Archive {
         let weapons = [];
         if (game.damage) {
             weapons = game.damage.map((d) => d.weapon).filter((w, index, arr) => arr.indexOf(w) === index).sort((a, b) => Weapon.orderedWeapons.indexOf(a) - Weapon.orderedWeapons.indexOf(b));
+
+            // Only include damage where the defender is known.
+            game.damage = game.damage.filter(d => d.getPlayer(d.defender));
         }
 
         let gameLength = game.settings && game.settings.timeLimit && game.settings.timeLimit || 0;
