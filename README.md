@@ -96,6 +96,12 @@ GO
 
 ## Version History
 
+### v2.2.1 - 5/30/2023
+
+* Fix assisted counts and damage taken on archive page.
+* Fix various crashes with the archive page.
+* Package updates.
+
 ### v2.2.0 - 12/10/2022
 
 * Fix error when creator is missing from game settings.
