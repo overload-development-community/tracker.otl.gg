@@ -30,7 +30,7 @@
         "full-text-search-query": "2.0.0",
         "html-minifier-terser": "7.2.0",
         "morgan": "1.10.0",
-        "terser": "5.17.6",
+        "terser": "5.17.7",
         "timeago.js": "4.0.2"
     },
     "devDependencies": {
