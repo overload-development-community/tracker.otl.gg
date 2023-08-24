@@ -31,7 +31,7 @@
         "full-text-search-query": "2.0.0",
         "hot-router": "1.0.2",
         "html-minifier-terser": "7.2.0",
-        "mongodb": "5.7.0",
+        "mongodb": "5.8.1",
         "terser": "5.19.2",
         "timeago.js": "4.0.2"
     },
