@@ -28,7 +28,7 @@
         "express-ws": "5.0.2",
         "hot-router": "1.0.2",
         "html-minifier-terser": "7.2.0",
-        "mongodb": "6.3.0",
+        "mongodb": "6.8.0",
         "timeago.js": "4.0.2"
     },
     "devDependencies": {
