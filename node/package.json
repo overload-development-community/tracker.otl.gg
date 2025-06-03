@@ -33,7 +33,7 @@
     },
     "devDependencies": {
         "@babel/core": "7.27.4",
-        "@babel/eslint-parser": "7.27.1",
+        "@babel/eslint-parser": "7.27.5",
         "@types/express": "5.0.2",
         "@types/express-ws": "3.0.5",
         "@types/html-minifier-terser": "7.0.2",
