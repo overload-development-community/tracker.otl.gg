@@ -24,7 +24,7 @@
         "chart.js": "4.4.9",
         "clipboard": "2.0.11",
         "compression": "1.7.5",
-        "express": "5.1.0",
+        "express": "5.2.0",
         "express-ws": "5.0.2",
         "hot-router": "1.0.4",
         "html-minifier-terser": "7.2.0",
